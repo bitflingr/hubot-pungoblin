@@ -18,7 +18,7 @@
 #   Morgan Wigmanich <okize123@gmail.com> (https://github.com/okize)
 
 images = require './data/images.json'
-jargon = require './data/triggers.json'
+triggers = require './data/triggers.json'
 
 removeTerm = (term, arrayToDeleteFrom) ->
   index = arrayToDeleteFrom.indexOf term
