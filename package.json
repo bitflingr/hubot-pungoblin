@@ -4,7 +4,8 @@
   "description": "Pun Goblin.  Puns are the lowest form of humor.  Perfect for goblins!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "script/test || true",
+    "debug": "coffee --nodejs --debug node_modules/.bin/hubot -r ./src"
   },
   "repository": {
     "type": "git",
